@@ -97,7 +97,7 @@ color: crimson;
     /* HOMEPAGE STYLE */
     .home{
         display: flex;
-        background: url("img/ptf baner.jpeg") no-repeat;
+        background: url("ptf baner.jpeg") no-repeat;
         height: 90vh;
         color: #fff;
         min-height: 500px;
