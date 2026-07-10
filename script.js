@@ -19,8 +19,14 @@ $(document).ready(function(){
 
     // toggle menu/navbar script
     $('.menu-btn').click(function(){
-        $(`.navbar .menu`).toggleClass("active")
-         $(`.menu-btn i`).toggleClass("active")
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+    });
+
+    // close mobile menu when a link is clicked
+    $('.navbar .menu li a').click(function(){
+        $('.navbar .menu').removeClass("active");
+        $('.menu-btn i').removeClass("active");
     });
     // typed animation script
     var typed = new Typed(".typing", {
@@ -58,5 +64,19 @@ $(document).ready(function(){
         }
     }
 });
+
+    // contact form — opens email client with the message
+    $('#contact-form').on('submit', function(e){
+        e.preventDefault();
+        var name = $(this).find('[name="name"]').val().trim();
+        var email = $(this).find('[name="email"]').val().trim();
+        var subject = $(this).find('[name="subject"]').val().trim();
+        var message = $(this).find('[name="message"]').val().trim();
+        var body = 'Name: ' + name + '\nEmail: ' + email + '\n\n' + message;
+        var mailto = 'mailto:mustafsaidewaz@gmail.com'
+            + '?subject=' + encodeURIComponent(subject)
+            + '&body=' + encodeURIComponent(body);
+        window.location.href = mailto;
+    });
       
 });
