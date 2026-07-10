@@ -73,7 +73,7 @@ $(document).ready(function(){
         var subject = $(this).find('[name="subject"]').val().trim();
         var message = $(this).find('[name="message"]').val().trim();
         var body = 'Name: ' + name + '\nEmail: ' + email + '\n\n' + message;
-        var mailto = 'mailto:mustafsaidewaz@gmail.com'
+        var mailto = 'mailto:mustafasaidewaz@gmail.com'
             + '?subject=' + encodeURIComponent(subject)
             + '&body=' + encodeURIComponent(body);
         window.location.href = mailto;
