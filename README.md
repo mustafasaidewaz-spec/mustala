@@ -36,7 +36,7 @@ define('DB_PASS', '');
 define('BASE_URL', '/Mustala');
 ```
 
-5. Open `http://localhost/Mustala/` in your browser.
+5. Open `http://localhost/Mustala/` in your browser (uses `index.php` automatically).
 
 ## Admin
 
@@ -63,5 +63,5 @@ Mustala/
 
 - Without a database connection the public site still loads with sample projects, posts, and testimonials.
 - Place your CV at `assets/uploads/Mustafa_Saide_CV.pdf` (or update the path in settings / config).
-- Optional: keep personal photos in an `img/` folder (e.g. `about im.jpeg`) for the About page.
-- Old single-page files (`mustala.html`, `style.css`, `script.js`) can be removed once you are happy with the new site.
+- Personal photos live in the `img/` folder (e.g. `img/about im.jpeg`) for the About and Teams sections.
+- The main entry point is **`index.php`**. Old static HTML files are not used.
