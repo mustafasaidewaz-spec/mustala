@@ -1,0 +1,16 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# User uploads (keep folder + htaccess)
+/assets/uploads/*
+!/assets/uploads/.htaccess
+
+# Logs
+*.log
+
+# Local overrides (optional)
+includes/config.local.php
+.env
+.env.*

@@ -1,0 +1,198 @@
+{
+  "categories": [
+    { "id": "all", "label": "All" },
+    { "id": "web-development", "label": "Web Development" },
+    { "id": "ecommerce", "label": "E-commerce" },
+    { "id": "business-websites", "label": "Business Websites" },
+    { "id": "landing-pages", "label": "Landing Pages" },
+    { "id": "dashboards", "label": "Dashboards" },
+    { "id": "ui-ux", "label": "UI/UX" }
+  ],
+  "projects": [
+    {
+      "id": "modern-business",
+      "title": "Modern Business Website",
+      "slug": "modern-business-website",
+      "category": "business-websites",
+      "thumbnail": "img/about%20im.jpeg",
+      "shortDescription": "Responsive business website with clean UI, services pages, and contact integration.",
+      "description": "A fully responsive business website built for a local client. It includes service pages, SEO-friendly structure, a contact form, and a mobile-first layout designed to convert visitors into leads.",
+      "features": [
+        "Mobile-first responsive layout",
+        "Service and about sections",
+        "Contact form integration",
+        "Basic SEO optimization",
+        "Fast loading performance"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "PHP"],
+      "clientType": "Local Business",
+      "completedAt": "2025-08",
+      "liveDemo": "#",
+      "github": "#",
+      "images": [
+        "img/about%20im.jpeg",
+        "img/ptf%20baner.jpeg",
+        "img/shop.jpeg"
+      ],
+      "videos": [
+        {
+          "type": "youtube",
+          "src": "dQw4w9WgXcQ",
+          "title": "Project walkthrough"
+        }
+      ]
+    },
+    {
+      "id": "woocommerce-store",
+      "title": "WooCommerce Online Store",
+      "slug": "woocommerce-online-store",
+      "category": "ecommerce",
+      "thumbnail": "img/shop.jpeg",
+      "shortDescription": "Complete e-commerce store with product catalog, cart, checkout, and payments.",
+      "description": "Custom WooCommerce store setup with product management, cart and checkout flow, payment readiness, and a clean storefront experience for selling online with confidence.",
+      "features": [
+        "Product catalog and categories",
+        "Cart and checkout flow",
+        "Payment-ready WooCommerce setup",
+        "Mobile shopping experience",
+        "Admin product management"
+      ],
+      "technologies": ["WordPress", "WooCommerce", "PHP", "MySQL", "CSS"],
+      "clientType": "Retail Brand",
+      "completedAt": "2025-11",
+      "liveDemo": "#",
+      "github": "#",
+      "images": [
+        "img/shop.jpeg",
+        "img/team%202.jpeg",
+        "img/about%20im.jpeg"
+      ],
+      "videos": [
+        {
+          "type": "youtube",
+          "src": "ScMzIvxBSi4",
+          "title": "Store demo"
+        }
+      ]
+    },
+    {
+      "id": "startup-landing",
+      "title": "Startup Landing Page",
+      "slug": "landing-page-startup",
+      "category": "landing-pages",
+      "thumbnail": "img/ptf%20baner.jpeg",
+      "shortDescription": "High-converting landing page designed for lead generation and product launches.",
+      "description": "A focused one-page marketing site with a strong hero, feature highlights, social proof, and clear call-to-action sections optimized for conversions.",
+      "features": [
+        "Conversion-focused hero section",
+        "Feature and benefit blocks",
+        "Testimonials section",
+        "Strong CTA placement",
+        "Lightweight and fast"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      "clientType": "Startup",
+      "completedAt": "2026-01",
+      "liveDemo": "#",
+      "github": "#",
+      "images": [
+        "img/ptf%20baner.jpeg",
+        "img/about%20im.jpeg"
+      ],
+      "videos": []
+    },
+    {
+      "id": "wordpress-corporate",
+      "title": "WordPress Corporate Site",
+      "slug": "wordpress-corporate-site",
+      "category": "web-development",
+      "thumbnail": "img/team%202.jpeg",
+      "shortDescription": "Custom WordPress theme with editable sections and a company blog.",
+      "description": "Corporate WordPress website with custom theme sections, blog support, and a clean professional look that is easy for the client to update.",
+      "features": [
+        "Custom WordPress theme sections",
+        "Blog and content pages",
+        "Easy content editing",
+        "Responsive corporate design",
+        "SEO-friendly structure"
+      ],
+      "technologies": ["WordPress", "PHP", "CSS", "JavaScript", "MySQL"],
+      "clientType": "Corporate Client",
+      "completedAt": "2025-05",
+      "liveDemo": "#",
+      "github": "#",
+      "images": [
+        "img/team%202.jpeg",
+        "img/team%203%20-%20Copy.jpeg",
+        "img/ptf%20baner.jpeg"
+      ],
+      "videos": [
+        {
+          "type": "youtube",
+          "src": "jNQXAC9IVRw",
+          "title": "Theme overview"
+        }
+      ]
+    },
+    {
+      "id": "admin-dashboard-ui",
+      "title": "Admin Dashboard UI",
+      "slug": "admin-dashboard-ui",
+      "category": "dashboards",
+      "thumbnail": "img/team%203%20-%20Copy.jpeg",
+      "shortDescription": "Clean dashboard interface for managing content, stats, and activity.",
+      "description": "A modern admin dashboard UI with stats cards, tables, quick actions, and a clear sidebar layout designed for portfolio and content management.",
+      "features": [
+        "Sidebar navigation",
+        "Stats overview cards",
+        "Content management tables",
+        "Responsive admin layout",
+        "Status badges and actions"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "PHP"],
+      "clientType": "Internal / Freelance Tooling",
+      "completedAt": "2026-03",
+      "liveDemo": "#",
+      "github": "#",
+      "images": [
+        "img/team%203%20-%20Copy.jpeg",
+        "img/about%20im.jpeg",
+        "img/shop.jpeg"
+      ],
+      "videos": []
+    },
+    {
+      "id": "uiux-redesign",
+      "title": "UI/UX Website Redesign",
+      "slug": "uiux-website-redesign",
+      "category": "ui-ux",
+      "thumbnail": "img/about%20im.jpeg",
+      "shortDescription": "Visual redesign focused on hierarchy, spacing, and conversion clarity.",
+      "description": "A UI/UX redesign project that improves visual hierarchy, readability, and call-to-action clarity while keeping the brand identity consistent.",
+      "features": [
+        "Improved visual hierarchy",
+        "Clearer CTA structure",
+        "Consistent spacing system",
+        "Accessible contrast",
+        "Mobile experience polish"
+      ],
+      "technologies": ["Figma", "HTML", "CSS", "JavaScript"],
+      "clientType": "Freelance Client",
+      "completedAt": "2026-02",
+      "liveDemo": "#",
+      "github": "#",
+      "images": [
+        "img/about%20im.jpeg",
+        "img/ptf%20baner.jpeg",
+        "img/team%202.jpeg"
+      ],
+      "videos": [
+        {
+          "type": "youtube",
+          "src": "M7lc1UVf-VE",
+          "title": "UI walkthrough"
+        }
+      ]
+    }
+  ]
+}

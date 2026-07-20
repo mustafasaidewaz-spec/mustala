@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Placeholder">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#134e4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <text x="50%" y="48%" text-anchor="middle" fill="#f0fdfa" font-family="system-ui,sans-serif" font-size="36" font-weight="700">Mustala</text>
+  <text x="50%" y="58%" text-anchor="middle" fill="#99f6e4" font-family="system-ui,sans-serif" font-size="18">Project Preview</text>
+</svg>
